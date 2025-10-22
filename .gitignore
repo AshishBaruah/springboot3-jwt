@@ -1,0 +1,111 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
+# =========================
+# Java & Maven
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven build output
+.mvn/timing.properties
+
+# IDEs & Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# Spring Boot
+# =========================
+# Local Spring Boot config files (keep templates in repo)
+application-*.yml
+application-*.yaml
+application-*.properties
+!application-example.yml
+!application-example.properties
+
+# =========================
+# PostgreSQL
+# =========================
+# Local database data (if stored inside repo folder)
+pgdata/
+*.sql
+*.dump
+
+# =========================
+# Docker
+# =========================
+# Ignore Docker volumes and build artifacts
+docker-data/
+**/docker-compose.override.yml
+.docker/
+*.pid
+
+# =========================
+# Logs & Temp
+# =========================
+*.out
+*.tmp
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
